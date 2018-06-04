@@ -1,24 +1,34 @@
-# Aktywacja Azure Pass
+# Activating Azure for Students
 
-## Aktywacja kodu
+## Account verification
 
-![](.gitbook/assets/image-10.png)
+Proceed to the [http://portal.azure.com](http://portal.azure.com) website:
 
-Przejdź na stronę [https://www.microsoftazurepass.com/](https://www.microsoftazurepass.com/), na której po kliknięciu na \_"Start" \_pojawi się możliwość wpisania kodu otrzymanego przez Ciebie od mentora.
+![](.gitbook/assets/image%20%281%29.png)
+
+Create a **new account** using your **name.surname@student.put.poznan.pl** account.
+
+Keep yourself logged in.
+
+## Activating Azure for Students
+
+To activate Azure for Students proceed to the website [https://azure.microsoft.com/pl-pl/free/students/](https://azure.microsoft.com/pl-pl/free/students/) and choose "**activate**". You will receive **$100** and additional free services.
+
+![](.gitbook/assets/image%20%282%29.png)
+
+Verify your student status with a **School email address** and type:  **name.surname@student.put.poznan.pl**
 
 {% hint style="info" %}
-Otrzymasz **$50** \(lub **45€** w zależności od regionu\) do wykorzystania przez **najbliższy miesiąc** na usługi Azure.
+You can create another accounts using aliases: **name.surname@student.put.edu.pl, inf122444@student.put.poznan.pl** and **inf122444@student.put.edu.pl**
 {% endhint %}
-
-Po wpisaniu wyświetlona zostanie strona logowania - użyj swojego konta Microsoft lub załóż nowe. Nawet jeśli wcześniej do Twojego konta została przypisana subskrypcja Microsoft Imagine \(darmowa studencka subskrypcja\) możesz dodać do niej swoją subskrypcję z Microsoft Azure Pass.
 
 ![](.gitbook/assets/image-14.png)
 
-Podanie numeru telefonu jest obowiązkowe do dwuetapowej weryfikacji użytkownika. Na podany numer otrzymasz SMS z kodem dostępu.
+A valid telephone number is required for a successful verification. You will receive an SMS with a confirmation code.
 
 {% hint style="info" %}
-Jeśli Twój numer telefonu był już wcześniej wykorzystany w innej subskrypcji Azure nadal **możesz** go użyć przy weryfikacji nowego konta.
+You can use a single phone number for a **multiple** accounts.
 {% endhint %}
 
-Założenie konta powinno trwać około 5 minut.
+Creating a new account should take no longer than 5 minutes.
 
