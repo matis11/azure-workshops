@@ -6,19 +6,17 @@
 
 Zacznijmy od założenia konta na Twitterze.
 
- Następnie stwórz nowy zasób - **Aplikację logiki **\(ang. _Logic app_\).
+Następnie stwórz nowy zasób - **Aplikację logiki** \(ang. _Logic app_\).
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image-9.png)
 
-Stwórzmy pustą aplikację, w której będziemy monitorować tweety z hashtagiem **"\#MSPBuzz"**. W tym celu wybierz wyzwalacz **"Po wysłaniu nowego tweetu".**
+Stwórzmy pustą aplikację, w której będziemy monitorować tweety z hashtagiem **"\#MSPBuzz"**. W tym celu wybierz wyzwalacz **"Po wysłaniu nowego tweetu".**
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image-13.png)
 
 Wysyłamy maila o wykryciu nowego tweeta:
 
-
-
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image-8.png)
 
 ## Omówienie Cognitive Services
 
@@ -34,19 +32,13 @@ Zacznijmy od utworzenia zasobu **Text Analysis API**
 
 Następnie w naszej aplikacji logiki tłumaczymy tweeta na język angielski:
 
-
-
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image-18.png)
 
 I analizujemy go pod względem zawartości:
 
-
-
-![](.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image-1.png)
 
 Zależnie od wyniku podejmujemy różne działania:
 
-
-
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image-19.png)
 

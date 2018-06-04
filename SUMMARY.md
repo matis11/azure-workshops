@@ -1,10 +1,11 @@
 # Table of contents
 
-* Azure Camp
+* Introduction
+* Azure Workshops
 * [Wprowadzenie](wprowadzenie.md)
 * [Aktywacja Azure Pass](aktywacja-azure-pass.md)
 * [Hello Azure Portal](hello-azure-portal.md)
-* [Maszyny wirtualne](untitled.md)
+* [Maszyny wirtualne](maszyny-wirtualne.md)
 * [Web App](web-app.md)
-* [Logic App](untitled-1.md)
+* [Logic App](logic-app.md)
 

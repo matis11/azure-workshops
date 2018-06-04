@@ -1,22 +1,20 @@
 ---
-description: Witaj na Azure Camp - warsztatach poświęconych chmurze Microsoft Azure!
+description: Welcome on the Azure Workshops - workshops dedicated to learn Microsoft Azure.
 ---
 
 # Wprowadzenie
 
-![](.gitbook/assets/azure_camp_cover_empty.jpg)
+## For the good start
 
-### Na dobry początek
+In the following 2 hours you are going to learn new cloud skills.
 
-Przez najbliższe 2 godziny poznasz rozwiązania, które zmienią sposób w jaki myślisz o chmurze. 
+* We will start with activating your Azure Pass for Students.
+* In the next step we are going to meet Azure Portal - a place, where you can manage all your cloud services. Besides the portal, we are gonna check a new way of service management - _Azure Cloud Shell,_
+* Next, we are gonna learn all the benefits coming from a Virtual Machines and setup an development environment,
+* We will create a web app and we are going to learn how cloud is handling them,
+* Our schedule have one more exciting point - first meeting with a Cognitive Services and automating a processes with Logic Apps.
 
-* Zaczniemy od aktywacji Twojego prezentu od firmy Microsoft, **50$ **dostępnych na potrzeby Microsoft Azure,
-* Kolejnym krokiem będzie nauka portalu Azure - miejsca, w którym zarządzasz wszystkimi usługami swojej chmury. Oprócz portalu, pokażemy także pokrótce na czym polega _Azure Cloud Shell,_
-* Następnie dowiemy się jakie możliwości oferują maszyny wirtualne, na których przygotujemy swoje ulubione środowisko developerskie,
-* Stworzymy także aplikację webową w wybranej technologii i przekonamy się jakie możliwości oferuje dla nich chmura,
-* W planach mamy także małe zadania związane z Logic Apps - pokażemy jak łatwo automatyzować flow dowolnego procesu \(jak chociażby obsługa ciekawych tweetów\).
+Please do not hesitate to ask any questions!
 
-W Twojej sali znajduje się mentor, który poprowadzi Cię przez wszystkie te zadania. Nie bój się zadawać pytań - małe grupy laboratoryjne pomogą nam utrzymać kameralną atmosferę!
-
-Powodzenia!
+Good luck!
 

@@ -2,24 +2,22 @@
 
 ## Aktywacja kodu
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image-10.png)
 
-Przejdź na stronę [https://www.microsoftazurepass.com/](https://www.microsoftazurepass.com/), na której po kliknięciu na _"Start" _pojawi się możliwość wpisania kodu otrzymanego przez Ciebie od mentora.
+Przejdź na stronę [https://www.microsoftazurepass.com/](https://www.microsoftazurepass.com/), na której po kliknięciu na \_"Start" \_pojawi się możliwość wpisania kodu otrzymanego przez Ciebie od mentora.
 
 {% hint style="info" %}
 Otrzymasz **$50** \(lub **45€** w zależności od regionu\) do wykorzystania przez **najbliższy miesiąc** na usługi Azure.
 {% endhint %}
 
-Po wpisaniu wyświetlona zostanie strona logowania - użyj swojego konta Microsoft lub załóż nowe. Nawet jeśli wcześniej do Twojego konta została przypisana subskrypcja Microsoft Imagine \(darmowa studencka subskrypcja\) możesz dodać do niej swoją subskrypcję z Microsoft Azure Pass.
+Po wpisaniu wyświetlona zostanie strona logowania - użyj swojego konta Microsoft lub załóż nowe. Nawet jeśli wcześniej do Twojego konta została przypisana subskrypcja Microsoft Imagine \(darmowa studencka subskrypcja\) możesz dodać do niej swoją subskrypcję z Microsoft Azure Pass.
 
-
-
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image-14.png)
 
 Podanie numeru telefonu jest obowiązkowe do dwuetapowej weryfikacji użytkownika. Na podany numer otrzymasz SMS z kodem dostępu.
 
 {% hint style="info" %}
-Jeśli Twój numer telefonu był już wcześniej wykorzystany w innej subskrypcji Azure nadal **możesz **go użyć przy weryfikacji nowego konta.
+Jeśli Twój numer telefonu był już wcześniej wykorzystany w innej subskrypcji Azure nadal **możesz** go użyć przy weryfikacji nowego konta.
 {% endhint %}
 
 Założenie konta powinno trwać około 5 minut.
