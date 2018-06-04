@@ -1,5 +1,5 @@
 ---
-description: Welcome on the Azure Workshops - workshops dedicated to learn Microsoft Azure.
+description: Welcome to the Azure Workshops - workshops dedicated to learn Microsoft Azure.
 ---
 
 # Wprowadzenie
