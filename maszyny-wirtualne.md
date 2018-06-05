@@ -1,12 +1,12 @@
-# Maszyny wirtualne
+# Virtual machines
 
-## Mój pierwszy zasób
+## My first resource
 
-Zacznijmy od stworzenia sobie zdalnego miejsce pracy, do którego możemy połączyć się z dowolnego innego komputera \(bądź telefonu\). Nie musisz już nosić ze sobą swojego laptopa - wszystkie swoje pliki i programy będą dla Ciebie dostępne na każdym komputerze, którego użyjesz!
+Let's begin with creating a remote workspace for yourself, which you can reach from any computer around the world. You don't have to bring your own notebook - all your files and programs will be available on every computer you are using! 
 
-Stwórzmy nowy zasób klikając na "Utwórz zasów" w lewym górnym rogu.
+Create a new resource clicking on a "Create resource" in a left top corner.
 
-Następnie wyszukajmy na Azure Marketplace zasób, który nas interesuje:
+Now, we will find our resource template on Azure Marketplace:
 
 ```text
 Visual Studio Community 2017 on Windows Server
@@ -14,62 +14,62 @@ Visual Studio Community 2017 on Windows Server
 
 ![](.gitbook/assets/image-17.png)
 
-Klikamy create i wypełniamy konfigurację:
+Click on create and configure all fields:
 
 ![](.gitbook/assets/image-12.png)
 
-Następnie parametry hardware - główny składnik kosztu zasobu:
+Next - hardware:
 
 ![](.gitbook/assets/image.png)
 
-Po poprawnym zakończeniu konfiguracji rozpoczyna się wdrożenie zasobu. Trwa około **5 minut**, po czym widzimy ekran podsumowania maszyny wirtualnej:
+After the configuration you will see a deployment procedure. It should take you no longer than 5 minutes, after which you should see a resource dashboard.
 
 ![](.gitbook/assets/image-11.png)
 
 {% hint style="info" %}
-Podczas tworzenia maszyny wirtualnej możesz użyć istniejącej podsieci i połączyć kilka maszyn wirtualnych w sieć LAN.
+You can connect multiple virtual machines in a subnets!
 {% endhint %}
 
-Warto zapoznać się z narzędziami dostępnymi po lewej stronie ekranu głównego zasobu.
+Let's check available options on a resource sidebar!
 
-## Konfiguracja i połączenie
+## Configuration and connection
 
-Następnym krokiem jest połączenie się za pośrednictwem protokołu RDP - _Remote Desktop Protocol_.
+Next step is connecting to your VM with a RDP - _Remote Desktop Protocol_.
 
-Aby nawiązać połączenie, połącz się z maszyną używając **publicznego adresu IP** \(widoczny na ekranie głównym zasobu\) i aplikacji obsługującej RDP:
+To establish a connection with your Virtual Machine use a **public IP address** \(visible on resource dashboard\) and application, which supports RDP:
 
-* **Windows**: _Podłączanie pulpitu zdalnego_ \(ang. Remote desktop\),
+* **Windows**: Remote desktop,
 * **OS X**: _Microsoft Remote Desktop_
 * **Linux**: _Remmina,_
 * **Android**: _Microsoft Remote Desktop_
 
 {% hint style="info" %}
-Maszyny wirtualne z systemem Linux mają domyślnie uruchomioną usługę **SSH** i zaporę firewall zezwalającą na te połączenie.
+Linux VM's have SSH enabled and configured by default. 
 {% endhint %}
 
-## Twój workspace
+## Your workspace
 
-Na maszynie wirtualnej znajduje się już gotowe do użycia Visual Studio. Wykorzystamy je do stworzenia aplikacji webowej w następnym roku.
+On the virtual machine you can find a pre-installed Visual Studio 2017. We will use it for our next step.
 
 {% hint style="info" %}
-Pamiętaj, że nawet po odłączeniu sesji zdalnego pulpitu Twoja maszyna wirtualna jest w takim samym stanie w jakim została pozostawiona. Aby zmniejszyć koszty użycia pamiętaj o wyłączeniu maszyny po zakończeniu korzystania. Zaleca się także użycie automatycznego wyłączania o danej godzinie - **autoshutdown**.
+Remember that even if you terminate a remote connection with a virtual machine it is still turned on. Keep in mind to shutdown machines to keep your costs as low as possible. You can also configure an **autoshudown** procedure.
 {% endhint %}
 
-Korzystając z maszyny wirtualnej masz do dyspozycji nie tylko wybrane parametry procesora, RAM czy dysku - korzystając z ogromnych serwerowni Twoja maszyna korzysta z bardzo wydajnego łącza internetowego oraz lokalnych kopi repozytoriów bibliotek \(np. Linux'owych\).
+Using a virtual machine results in a great CPU, RAM and  disk parameters. With Azure big datacenters your machine have a rapid internet connection and can use local copy of linux repositories.
 
-Przy konfiguracji usług pamiętaj o odpowiednich regułach **zapory firewall**.
+Please remember about **firewall rules** while changing setting of your VM.
 
-## Skalowalność
+## Scaling
 
-W przypadku potrzeby zmniejszenia/zwiększenia wydajności maszyny możliwa jest natychmiastowa zmiana wielkości maszyny. Spróbuj teraz zwiększyć zasoby Twojej maszyny - możesz zmieniać nie tylko klasę maszyny, ale także przypisane do niej dyski.
+If you need to minify/enlarge computing power of your machine you can instantly change a VM size. Try now to increase your VM class.
 
 ![](.gitbook/assets/image-7.png)
 
-## Migawki dysku
+## Disk snapshots
 
-Możesz tworzyć błyskawiczne migawki dysku \(snapshot'y\), które wykorzystywane są zarówno do backup'u danych jak i tworzenia nowych maszyn wirtualnych na podstawie tego obrazu.
+You can instantly create disk snapshots, which are being used both for data backup and creating a new VM's from a disk image.
 
-Utwórz teraz snapshota swojej maszyny wirtualnej - Twojego miejsca pracy.
+Let's create a new disk snapshot.
 
 ![](.gitbook/assets/image-16.png)
 
