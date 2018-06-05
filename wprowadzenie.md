@@ -2,7 +2,7 @@
 description: Welcome to the Azure Workshops - workshops dedicated to learn Microsoft Azure.
 ---
 
-# Wprowadzenie
+# Intro
 
 ## For the good start
 

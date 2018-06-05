@@ -2,7 +2,7 @@
 
 * Introduction
 * Azure Workshops
-* [Wprowadzenie](wprowadzenie.md)
+* [Intro](wprowadzenie.md)
 * [Activating Azure for Students](aktywacja-azure-pass.md)
 * [Hello Azure Portal](hello-azure-portal.md)
 * [Virtual machines](maszyny-wirtualne.md)
